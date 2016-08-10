@@ -1,0 +1,17 @@
+/* CSS Document */
+
+/*Mostraremos los campos requeridos de color amarillo*/
+    form input:required {
+       border:2px solid yellow;
+    /* otras propiedades */
+    }
+    /*Si el valor que el usuario escribe es valido, obtendra un color verde*/
+    form input:valid{
+        border:2px solid green;
+        /* otras propiedades */
+    }
+    /*caso contrario, el color sera rojo*/
+    form input:focus:invalid{
+        border:2px solid red;
+        /* otras propiedades */
+    }
